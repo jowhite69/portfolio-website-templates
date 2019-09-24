@@ -1,0 +1,38 @@
+/** BASE **/
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/** UTILITY **/
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.px-16 {
+  padding: 0 16px;
+}
+
+/** CUSTOM **/
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}

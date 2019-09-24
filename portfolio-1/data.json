@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Zidane's Portfolio",
+    "menu_options": [
+      {
+        "text": "About me",
+        "link": "#about"
+      },
+      {
+        "text": "Projects",
+        "link": "#projects"
+      },
+      {
+        "text": "Blog",
+        "link": "#blog"
+      }
+    ]
+  },
+  "personal": {
+    "contact": {
+      "firstname": "Zidane",
+      "lastname": "Wright",
+      "email": "zidanewright@outlook.com",
+      "phone": "8761234567",
+      "address": {
+        "city": "Kingston",
+        "country": "Jamaica"
+      }
+    },
+    "career": {
+      "occupation": "Student",
+      "available_for_hire": true,
+      "available_for_remote_work": true,
+      "interests": ["web design", "web development", "UI/UX"]
+    },
+    "social": {
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "github": "",
+      "dribble": "",
+      "behance": "",
+      "codepen": ""
+    }
+  }
+
+}
