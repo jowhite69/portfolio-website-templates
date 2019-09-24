@@ -26,5 +26,12 @@ window.onload = async () => {
       li.appendChild(a);
       options.appendChild(li);
     }
+
+    const menuToggle = document.getElementById('menu-toggle');
+
+    menuToggle.onclick = () => {
+      menuToggle.classList.toggle('change');
+      options.classList.toggle('active');
+    }
   }
 }
