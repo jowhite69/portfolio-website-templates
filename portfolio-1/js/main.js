@@ -13,7 +13,26 @@ window.onload = async () => {
 
     // inject the user's full name into the webpage
     document.getElementById('fullname').innerText = `${data.personal.contact.firstname} ${data.personal.contact.lastname}`;
+    
+
+    const socials = document.getElementById('social-details');
+    
+    for (let social of data.personal.socials) {
+      let a = document.createElement('a');
+      let li = document.createElement('li');
+
+      a.setAttribute('href', social.url);
+      a.setAttribute('target', '_blank');
+      a.innerHTML = `<img src="${social.icon}"/>`;
+
+      li.appendChild(a);
+      
+      socials.appendChild(li);
+    }
+
+
     addMenuOptions(data);
+    getGithubRepos(data.metadata.github_username);
   }
 
   function addMenuOptions(data) {
@@ -32,6 +51,25 @@ window.onload = async () => {
     menuToggle.onclick = () => {
       menuToggle.classList.toggle('change');
       options.classList.toggle('active');
+    }
+  }
+
+  async function getGithubRepos(user) {
+    // get the latest repositories that are being worked on
+    let response = await fetch(`https://api.github.com/users/${user}/repos?sort=pushed`);
+    let repos = (await response.json()).slice(0, 4);
+
+    console.log(repos);
+
+    const projectListing = document.getElementById('project-listings');
+    for (let repo of repos) {
+      let div = document.createElement('div');
+      let a = document.createElement('a');
+      div.innerText = repo.name;
+      a.setAttribute('href', repo.html_url);
+      a.setAttribute('target', '_blank');
+      a.appendChild(div);
+      projectListing.appendChild(a);
     }
   }
 }

@@ -1,6 +1,7 @@
 {
   "metadata": {
     "title": "Zidane's Portfolio",
+    "github_username": "zdmwi",
     "menu_options": [
       {
         "text": "About me",
@@ -9,43 +10,43 @@
       {
         "text": "Projects",
         "link": "#projects"
-      },
-      {
-        "text": "Blog",
-        "link": "#blog"
-      },
-      {
-        "text": "Contact",
-        "link": "#contact"
       }
     ]
   },
   "personal": {
     "contact": {
       "firstname": "Zidane",
-      "lastname": "Wright",
-      "email": "zidanewright@outlook.com",
-      "phone": "8761234567",
-      "address": {
-        "city": "Kingston",
-        "country": "Jamaica"
-      }
+      "lastname": "Wright"
     },
     "career": {
       "occupation": "Student",
+      "company": "University of the West Indies",
       "available_for_hire": true,
       "available_for_remote_work": true,
       "interests": ["web design", "web development", "UI/UX"]
     },
-    "social": {
-      "facebook": "",
-      "twitter": "",
-      "linkedin": "",
-      "github": "",
-      "dribble": "",
-      "behance": "",
-      "codepen": ""
-    }
+    "socials": [
+      {
+        "social": "email",
+        "url": "mailto:zidanewright@outlook.com",
+        "icon": "assets/mail.svg"
+      },
+      {
+        "social": "linkedin",
+        "url": "https://www.linkedin.com/in/zdmwi/",
+        "icon": "assets/linkedin.svg"
+      },
+      {
+        "social": "github",
+        "url": "https://github.com/zdmwi",
+        "icon": "assets/github.svg"
+      },
+      {
+        "social": "codepen",
+        "url": "https://codepen.io/zdmwi",
+        "icon": "assets/codepen.svg"
+      }
+    ]
   }
 
 }
