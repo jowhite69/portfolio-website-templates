@@ -86,6 +86,11 @@ a {
   cursor: pointer;
 }
 
+#prof-pic{
+  height: 300px;
+  width: 300px;
+}
+
 /* hide the menu toggle icon on tablet sized devices and up */
 @media screen and (min-width: 554px) {
   .menu-toggle {
