@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Ligma's Portfolio",
+    "title": "Zidane's Portfolio",
     "github_username": "zdmwi",
     "menu_options": [
       {
@@ -15,8 +15,8 @@
   },
   "personal": {
     "contact": {
-      "firstname": "Ligma",
-      "lastname": "Ball"
+      "firstname": "Zidane",
+      "lastname": "Wright"
     },
     "career": {
       "occupation": "Student",
@@ -28,12 +28,12 @@
     "socials": [
       {
         "social": "email",
-        "url": "mailto:oster@gmail.com",
+        "url": "mailto:zidanewright@outlook.com",
         "icon": "assets/mail.svg"
       },
       {
         "social": "linkedin",
-        "url": "https://www.linkedin.com/in/williamhgates",
+        "url": "https://www.linkedin.com/in/zdmwi/",
         "icon": "assets/linkedin.svg"
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "social": "codepen",
-        "url": "https://codepen.io/zdmwihttps://codepen.io/linuscodes",
+        "url": "https://codepen.io/zdmwi",
         "icon": "assets/codepen.svg"
       }
     ]
