@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "title": "Zidane's Portfolio",
+    "github_username": "zdmwi",
+    "menu_options": [
+      {
+        "text": "About me",
+        "link": "#about"
+      },
+      {
+        "text": "Projects",
+        "link": "#projects"
+      }
+    ]
+  },
+  "personal": {
+    "contact": {
+      "firstname": "Zidane",
+      "lastname": "Wright"
+    },
+    "career": {
+      "occupation": "Student",
+      "company": "University of the West Indies",
+      "available_for_hire": true,
+      "available_for_remote_work": true,
+      "interests": ["web design", "web development", "UI/UX"]
+    },
+    "socials": [
+      {
+        "social": "email",
+        "url": "mailto:zidanewright@outlook.com",
+        "icon": "assets/mail.svg"
+      },
+      {
+        "social": "linkedin",
+        "url": "https://www.linkedin.com/in/zdmwi/",
+        "icon": "assets/linkedin.svg"
+      },
+      {
+        "social": "github",
+        "url": "https://github.com/zdmwi",
+        "icon": "assets/github.svg"
+      },
+      {
+        "social": "codepen",
+        "url": "https://codepen.io/zdmwi",
+        "icon": "assets/codepen.svg"
+      }
+    ]
+  }
+
+}

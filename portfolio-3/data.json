@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "title": "Zidane's Portfolio",
+    "github_username": "zdmwi",
+    "aboutme": "My name is Zidane Wright. I am currently a student at the University of the West Indies, Mona Campus.",
+    "menu_options": [
+      {
+        "text": "About me",
+        "link": "#about"
+      },
+      {
+        "text": "Projects",
+        "link": "#projects"
+      }
+    ]
+  },
+  "personal": {
+    "contact": {
+      "firstname": "Zidane",
+      "lastname": "Wright"
+    },
+    "socials": [
+      {
+        "social": "email",
+        "url": "mailto:zidanewright@outlook.com",
+        "icon": "assets/mail.svg"
+      },
+      {
+        "social": "linkedin",
+        "url": "https://www.linkedin.com/in/zdmwi/",
+        "icon": "assets/linkedin.svg"
+      },
+      {
+        "social": "github",
+        "url": "https://github.com/zdmwi",
+        "icon": "assets/github.svg"
+      },
+      {
+        "social": "codepen",
+        "url": "https://codepen.io/zdmwi",
+        "icon": "assets/codepen.svg"
+      }
+    ]
+  }
+
+}

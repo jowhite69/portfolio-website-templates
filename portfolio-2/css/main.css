@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.menu-toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* hide the menu toggle icon on tablet sized devices and up */
+@media screen and (min-width: 554px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-options li {
+    display: inline;
+    padding: 0 24px 0 0;
+  }
+
+  .menu-options li:last-child {
+    padding-right: 0;
+  }
+}
+
+/* hide the menu options on any device smaller than a tablet */
+@media screen and (max-width: 554px) {
+  .menu-options {
+    display: none;
+    width: 100vw;
+    background-color: var(--base-color);
+  }
+
+  .menu-options li {
+    padding: 20px 0 4px 0;
+  }
+
+  .menu-options.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+  }
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 4px;
+  background-color: var(--text-color);
+  margin: 4px 0;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+  transform: rotate(-45deg) translate(-6px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-5px, -6px) ;
+  transform: rotate(45deg) translate(-5px, -6px) ;
+}

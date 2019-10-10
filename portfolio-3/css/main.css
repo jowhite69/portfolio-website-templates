@@ -1,0 +1,13 @@
+.social-details {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.social-details div {
+  padding: 0 16px;
+}
+
+.mt-128 {
+  padding-top: 128px;
+}
